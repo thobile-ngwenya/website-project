@@ -7,3 +7,30 @@ body {
     min-height: 100vh;
     font-family: 'Times New Roman', serif;
 }
+
+/* Hero */
+#hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero h1, #hero p {
+    text-align: center;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    color: #ddd;
+}
