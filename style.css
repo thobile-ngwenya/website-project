@@ -70,3 +70,18 @@ nav ul li a {
 nav ul li a:hover {
     color: #ccc;
 }
+
+/* Sections */
+#about, #services, #contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    color: #fff;
+}
+
+#about { background-color: #1a1a2e; }
+#services { background-color: #16213e; }
+#contact { background-color: #0f3460; }
