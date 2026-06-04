@@ -8,15 +8,27 @@
 </head>
 <body>
 
-    <nav>
-        <div class="logo">🗂️ Data Hub</div>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<nav>
+    <div class="logo">🌐 Data Hub</div>
+    <button class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <ul id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<script>
+    function toggleMenu() {
+        const ul = document.getElementById('nav-links');
+        ul.classList.toggle('open');
+    }
+</script>
 
     <section id="hero">
         <h1>Welcome to The Data Hub</h1>
